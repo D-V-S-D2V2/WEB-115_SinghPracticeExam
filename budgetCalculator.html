@@ -5,13 +5,27 @@
     <script src="budgetCalculator.js" defer></script>
 </head>
 <body>
-    <p>Your Name</p>
-    <p>your.email@example.com</p>
-    <p>Today's Date</p>
+    <p>Darsh Pratap Singh</p>
+    <p>dpsingh1@my.waketech.edu</p>
+    <p>3/23/2026</p>
+    <form id = 'form1'>
+    <label for = "Monthly Income">Monthly Income:</label>
+    <input type = "number" id = "monthlyIncome" name = "Monthly Income" required></input>
+    <br>
 
+    <label for = "Monthly Expense">Monthly Expense:</label>
+    <input type = "number" id = "monthlyExpense" name = "Monthly Expense" required></input>
+    <br>
+
+    <label for = "months">Number of Months to project Budget:</label>
+    <input type = "number" id = "monthsBudget" name = "months" required></input>
+    <br>
+    <br>
     <button id="calculateBudget">Calculate Budget</button>
+    </form>
+    <div id="budgetResults">
 
-    <div id="budgetResults"></div>
+    </div>
 
 </body>
 </html>
